@@ -1,0 +1,5 @@
+{
+  "name": "Gully Cricket Stats",
+  "description": "A comprehensive gully cricket stat recorder with ball-by-ball tracking, multi-role access (Player, Umpire, Admin), and custom rules for local street cricket matches.",
+  "requestFramePermissions": []
+}
