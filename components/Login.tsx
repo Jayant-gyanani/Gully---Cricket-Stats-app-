@@ -13,7 +13,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
     const us = username.trim().toLowerCase();
-    if (!onLogin(username, password)) {
+    if (!onLogin(us, password)) {
       setError('Invalid username or password');
     }
   };
